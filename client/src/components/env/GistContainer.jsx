@@ -35,8 +35,8 @@ class GistContainer extends Component {
 
             <ReactCSSTransitionGroup
             transitionName="example"
-            transitionEnterTimeout={1000}
-            transitionLeaveTimeout={1000}>
+            transitionEnterTimeout={300}
+            transitionLeaveTimeout={300}>
             <button
               key = {key}
               className={'btn btn-sm gist-button ' + buttonClass[gist.save].style}
